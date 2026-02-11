@@ -72,6 +72,11 @@ python visualize_comparison.py # 6. Görselleştirme
 *   Kayıp Fonksiyonları: Hinge GAN Loss + 10.0x L1 Reconstruction Loss + R1 Regularization.
 *   Örneklem: Tüm analizler istatistiksel kararlılık için 1000+ örneklem üzerinden yapılmıştır.
 
+## Yayınlar (Papers)
+
+*   **NAO and Expert Imitating Each Other: A New Robot Action Dataset**  
+    [İncele (IEEE Xplore)](https://ieeexplore.ieee.org/abstract/document/11112493)
+
 ---
 
 ## Klasör Yapısı
@@ -92,4 +97,8 @@ Actformer_Nao/
         ├── Full_Train_Generation/
         └── fid_encoder.pt
 ```
+
+---
+
+Bu çalışma, Türkiye Bilimsel ve Teknolojik Araştırma Kurumu (TÜBİTAK) tarafından 123E635 numaralı proje ile desteklenmiştir. Projeye verdigi destekten ötürü TÜBİTAK’a teşekkürlerimizi sunarız.
 
