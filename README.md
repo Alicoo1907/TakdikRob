@@ -13,6 +13,16 @@ Bu proje, ActFormer (Action Transformer) mimarisini kullanarak verilen etiketler
 
 ## NAO Pipeline
 
+### Çalıştırma Sırası
+```bash
+python main.py              # 1. GAN eğitimi
+python test_final.py         # 2. Sahte hareket üretimi (Train & K18)
+python train_evaluator.py    # 3. FID encoder eğitimi
+python fid.py                # 4. Global FID hesaplama (Train)
+python fid_k18.py            # 5. K18 Test Kişisi FID hesaplama
+python visualize_k18_comparison.py # 6. Görselleştirme (GIF)
+```
+
 ### Dosya Yapısı
 *   **main.py**: GAN modelini (Generator + Discriminator) eğitmek için kullanılan ana dosyadır. Kayıpları (GAN, L1, Bone, Center) hesaplar ve modelleri kaydeder.
 *   **net_G.py**: Generator (Üretici) model mimarisini içerir. Transformer tabanlıdır.
@@ -72,11 +82,6 @@ python visualize_comparison.py # 6. Görselleştirme
 *   Kayıp Fonksiyonları: Hinge GAN Loss + 10.0x L1 Reconstruction Loss + R1 Regularization.
 *   Örneklem: Tüm analizler istatistiksel kararlılık için 1000+ örneklem üzerinden yapılmıştır.
 
-## Yayınlar (Papers)
-
-*   **NAO and Expert Imitating Each Other: A New Robot Action Dataset**  
-    [İncele (IEEE Xplore)](https://ieeexplore.ieee.org/abstract/document/11112493)
-
 ---
 
 ## Klasör Yapısı
@@ -101,4 +106,11 @@ Actformer_Nao/
 ---
 
 Bu çalışma, Türkiye Bilimsel ve Teknolojik Araştırma Kurumu (TÜBİTAK) tarafından 123E635 numaralı proje ile desteklenmiştir. Projeye verdigi destekten ötürü TÜBİTAK’a teşekkürlerimizi sunarız.
+
+---
+
+## Yayınlar (Papers)
+
+*   **NAO and Expert Imitating Each Other: A New Robot Action Dataset**  
+    [İncele (IEEE Xplore)](https://ieeexplore.ieee.org/abstract/document/11112493)
 
