@@ -57,13 +57,12 @@ python visualize_k18_comparison.py # 6. Görselleştirme (GIF)
 
 ### Final Başarı Metrikleri (Phase 2)
 
-| Kriter | Kapsam | Değer | Durum |
-| :--- | :--- | :--- | :--- |
-| **Global FID** (Ana Metrik) | Train Kayıtları (1080 Seq) | **1.1096** | 🏆 Başarılı |
-| **Global FID** (Ana Metrik) | K18 Test Kişisi (60 Seq) | **3.8924** | Yüksek Genelleme |
-| Ortalama FID (Sıralı) | Train Kayıtları | 17.3030 | Referans |
-| Ortalama FID (Sıralı) | K18 Test Kişisi | 9.7693 | Referans |
-| Mean Difference | Genel | 0.1000 | Çok Düşük (Stabil) |
+| Kriter | Kapsam | Değer |
+| :--- | :--- | :--- | 
+| **Global FID** (Ana Metrik) | Train Kayıtları (1080 Seq) | **1.1096** 
+| **Global FID** (Ana Metrik) | K18 Test Kişisi (60 Seq) | **3.8924** 
+| Ortalama FID (Sıralı) | Train Kayıtları | 17.3030 |
+| Ortalama FID (Sıralı) | K18 Test Kişisi | 9.7693 | 
 
 ---
 
