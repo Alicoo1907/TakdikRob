@@ -2,6 +2,33 @@
 
 Bu proje, [ActFormer: A GAN-based Transformer towards General Action-Conditioned 3D Human Motion Generation (ICCV 2023)](https://github.com/Szy-Young/actformer) çalışmasından esinlenilmiş olup, orijinal mimari üzerinde modifikasyonlar ve iyileştirmeler yapılarak geliştirilmiştir. ActFormer tabanlı bu yapı, verilen etiketlere göre gerçekçi 3D insan hareketleri üretir.
 
+## Görselleştirme ve Demo (K18 Test Kişisi)
+
+Aşağıda, modelin K18 test kişisi üzerinde ürettiği 15 farklı aksiyonun **en düşük FID skoruna sahip** (en başarılı) örnekleri yer almaktadır. Sol taraf gerçek hareketi, sağ taraf modelin ürettiği hareketi göstermektedir.
+
+| Aksiyon | Karşılaştırma (Real vs Fake) | Aksiyon | Karşılaştırma (Real vs Fake) |
+| :--- | :--- | :--- | :--- |
+| **A001** | ![A001](Results/k18_comparisons_gif/compare_K18_A001_R02.gif) | **A002** | ![A002](Results/k18_comparisons_gif/compare_K18_A002_R01.gif) |
+| **A003** | ![A003](Results/k18_comparisons_gif/compare_K18_A003_R03.gif) | **A004** | ![A004](Results/k18_comparisons_gif/compare_K18_A004_R01.gif) |
+| **A005** | ![A005](Results/k18_comparisons_gif/compare_K18_A005_R03.gif) | **A006** | ![A006](Results/k18_comparisons_gif/compare_K18_A006_R04.gif) |
+| **A007** | ![A007](Results/k18_comparisons_gif/compare_K18_A007_R03.gif) | **A008** | ![A008](Results/k18_comparisons_gif/compare_K18_A008_R02.gif) |
+| **A009** | ![A009](Results/k18_comparisons_gif/compare_K18_A009_R01.gif) | **A010** | ![A010](Results/k18_comparisons_gif/compare_K18_A010_R03.gif) |
+| **A011** | ![A011](Results/k18_comparisons_gif/compare_K18_A011_R01.gif) | **A012** | ![A012](Results/k18_comparisons_gif/compare_K18_A012_R04.gif) |
+| **A013** | ![A013](Results/k18_comparisons_gif/compare_K18_A013_R02.gif) | **A014** | ![A014](Results/k18_comparisons_gif/compare_K18_A014_R02.gif) |
+| **A015** | ![A015](Results/k18_comparisons_gif/compare_K18_A015_R03.gif) | | |
+
+---
+
+## Eğitim Grafikleri
+
+### NAO Pipeline Loss
+![NAO Loss](Results/Train_Loss_Graph/loss_epoch1915.png)
+
+### NTU49_7J Pipeline Loss
+![NTU Loss](NTU49_7J/Results/Train_Loss_Graph/loss_epoch25.png)
+
+---
+
 ## Desteklenen Veri Setleri
 
 | Veri Seti | Klasör / Path | Joint | Frame | Sınıf | Veri Formatı |
