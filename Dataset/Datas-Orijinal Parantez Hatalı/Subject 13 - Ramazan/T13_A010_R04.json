@@ -1,0 +1,1672 @@
+[
+    {
+        "RShoulderPitch": 79.93398019956041,
+        "RShoulderRoll": -31.823192998741234,
+        "RElbowRoll": 35.06517315316748,
+        "RElbowYaw": -46.07521746022168,
+        "LShoulderPitch": 85.95855154885436,
+        "LShoulderRoll": 38.95799706386105,
+        "LElbowRoll": 42.91657436444066,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 79.93398019956041,
+        "RShoulderRoll": -31.823192998741234,
+        "RElbowRoll": 35.06517315316748,
+        "RElbowYaw": -46.07521746022168,
+        "LShoulderPitch": 85.95855154885436,
+        "LShoulderRoll": 38.95799706386105,
+        "LElbowRoll": 42.91657436444066,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 79.92957991518226,
+        "RShoulderRoll": -31.833376758353253,
+        "RElbowRoll": 35.09826489476714,
+        "RElbowYaw": -46.04753608087291,
+        "LShoulderPitch": 85.95800890458351,
+        "LShoulderRoll": 39.01097530581878,
+        "LElbowRoll": 42.93699711605211,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 79.92332728254239,
+        "RShoulderRoll": -31.85905489808439,
+        "RElbowRoll": 35.199775752245756,
+        "RElbowYaw": -45.835512211200786,
+        "LShoulderPitch": 85.92847828753943,
+        "LShoulderRoll": 39.03756571368406,
+        "LElbowRoll": 42.97683374470924,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 79.89783319088133,
+        "RShoulderRoll": -31.908217612945357,
+        "RElbowRoll": 35.39257256409735,
+        "RElbowYaw": -45.50053717135832,
+        "LShoulderPitch": 85.85435228952981,
+        "LShoulderRoll": 39.074598535879154,
+        "LElbowRoll": 43.067548111581715,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 79.74786077203132,
+        "RShoulderRoll": -32.070745097103384,
+        "RElbowRoll": 35.82886412086796,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 85.69334507803688,
+        "LShoulderRoll": 39.16762821243793,
+        "LElbowRoll": 43.37664154797423,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 78.79538024325508,
+        "RShoulderRoll": -32.4991004949987,
+        "RElbowRoll": 37.908023700715574,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 84.75208833204961,
+        "LShoulderRoll": 39.82419367435801,
+        "LElbowRoll": 44.78849818946031,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 77.78121049929351,
+        "RShoulderRoll": -33.258645345561376,
+        "RElbowRoll": 39.109760082530926,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 83.96772420886867,
+        "LShoulderRoll": 40.444561326672456,
+        "LElbowRoll": 45.88147311029795,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 76.36910825122666,
+        "RShoulderRoll": -33.72666168819711,
+        "RElbowRoll": 40.158138333913286,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 82.91466198656569,
+        "LShoulderRoll": 41.17899555753083,
+        "LElbowRoll": 47.02631688356692,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 72.7993641991687,
+        "RShoulderRoll": -34.43406048349368,
+        "RElbowRoll": 42.46457264324826,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 80.92042932807534,
+        "LShoulderRoll": 42.00748326805701,
+        "LElbowRoll": 48.913367994035156,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 71.2011020398969,
+        "RShoulderRoll": -34.55606360656412,
+        "RElbowRoll": 43.4086381570917,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 79.41756940607989,
+        "LShoulderRoll": 42.64587355292962,
+        "LElbowRoll": 50.20659290051228,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 69.81774448500317,
+        "RShoulderRoll": -34.31052660618844,
+        "RElbowRoll": 43.65522433657296,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 77.69209415932464,
+        "LShoulderRoll": 43.60286006212921,
+        "LElbowRoll": 51.51687355866946,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 67.366360174789,
+        "RShoulderRoll": -34.2975276058105,
+        "RElbowRoll": 43.56505330487494,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 75.43890581299023,
+        "LShoulderRoll": 43.99062170153911,
+        "LElbowRoll": 52.325473183739206,
+        "LElbowYaw": 131.85621169517162
+    },
+    {
+        "RShoulderPitch": 50.66873394582382,
+        "RShoulderRoll": -27.82215271944427,
+        "RElbowRoll": 41.654794304649926,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 60.62337763342974,
+        "LShoulderRoll": 42.57044547844446,
+        "LElbowRoll": 43.06376039391003,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 50.17624984447558,
+        "RShoulderRoll": -27.677241863749916,
+        "RElbowRoll": 42.30288205895556,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 59.52615460664056,
+        "LShoulderRoll": 42.36065099997555,
+        "LElbowRoll": 46.95271456898823,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 47.65507911852949,
+        "RShoulderRoll": -26.602721773442337,
+        "RElbowRoll": 43.63241512007477,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 59.153537086666304,
+        "LShoulderRoll": 42.85666040391675,
+        "LElbowRoll": 54.11226314132229,
+        "LElbowYaw": 129.80038138869725
+    },
+    {
+        "RShoulderPitch": 45.29838933174659,
+        "RShoulderRoll": -26.310274371382064,
+        "RElbowRoll": 45.58739460981374,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 58.457947366567566,
+        "LShoulderRoll": 43.17597210585256,
+        "LElbowRoll": 52.07643121475948,
+        "LElbowYaw": 127.13532096431395
+    },
+    {
+        "RShoulderPitch": 43.513667591283344,
+        "RShoulderRoll": -25.713545505820825,
+        "RElbowRoll": 47.39334360102657,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 55.375892899810246,
+        "LShoulderRoll": 43.07629162380912,
+        "LElbowRoll": 53.594163241974684,
+        "LElbowYaw": 126.4646896969819
+    },
+    {
+        "RShoulderPitch": 41.90561001741152,
+        "RShoulderRoll": -25.788853988545416,
+        "RElbowRoll": 58.960771616146644,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 36.285671570805974,
+        "LShoulderRoll": 30.79361968882582,
+        "LElbowRoll": 47.82887308878975,
+        "LElbowYaw": -90
+    },
+    {
+        "RShoulderPitch": 38.1750043696846,
+        "RShoulderRoll": -25.204770880805054,
+        "RElbowRoll": 56.092167877392455,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 39.95906917728002,
+        "LShoulderRoll": 33.56385993042306,
+        "LElbowRoll": 43.302412807325396,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 38.1750043696846,
+        "RShoulderRoll": -25.204770880805054,
+        "RElbowRoll": 56.092167877392455,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 39.95906917728002,
+        "LShoulderRoll": 33.56385993042306,
+        "LElbowRoll": 43.302412807325396,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 36.557114376131985,
+        "RShoulderRoll": -25.106804693520758,
+        "RElbowRoll": 62.66167067673368,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 37.460991475378954,
+        "LShoulderRoll": 34.044040555212725,
+        "LElbowRoll": 52.58620894990604,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 36.05423687673002,
+        "RShoulderRoll": -25.245607599628986,
+        "RElbowRoll": 62.16459525046601,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 36.33544270801294,
+        "LShoulderRoll": 33.13454323474007,
+        "LElbowRoll": 53.007166425569366,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 35.255768031890725,
+        "RShoulderRoll": -24.973618216134632,
+        "RElbowRoll": 62.79993428850756,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 32.307408001417606,
+        "LShoulderRoll": 35.25720767865156,
+        "LElbowRoll": 64.47773693003288,
+        "LElbowYaw": 119.1146881788874
+    },
+    {
+        "RShoulderPitch": 35.118637131300304,
+        "RShoulderRoll": -25.212615505974778,
+        "RElbowRoll": 64.78578495145882,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 27.527979168654184,
+        "LShoulderRoll": 26.138086272368113,
+        "LElbowRoll": 53.3660369427478,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 30.789510948998412,
+        "RShoulderRoll": -23.033490864327113,
+        "RElbowRoll": 67.02712950757765,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 26.496533573851018,
+        "LShoulderRoll": 25.689897109991982,
+        "LElbowRoll": 58.32024359650606,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 30.594824453034683,
+        "RShoulderRoll": -26.133731543384044,
+        "RElbowRoll": 76.31424397675028,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 20.887629346047092,
+        "LShoulderRoll": 26.832708151778018,
+        "LElbowRoll": 66.6583292631928,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 31.704256255985577,
+        "RShoulderRoll": -23.35068181147639,
+        "RElbowRoll": 72.83866018188805,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 15.796227800090065,
+        "LShoulderRoll": 28.031430210856204,
+        "LElbowRoll": 70.89304886286591,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 31.972343189620894,
+        "RShoulderRoll": -22.56027563906538,
+        "RElbowRoll": 80.81323021347961,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 10.031368073847815,
+        "LShoulderRoll": 28.719219723866477,
+        "LElbowRoll": 70.1319233724708,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 31.972343189620894,
+        "RShoulderRoll": -22.56027563906538,
+        "RElbowRoll": 80.81323021347961,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 10.031368073847815,
+        "LShoulderRoll": 28.719219723866477,
+        "LElbowRoll": 70.1319233724708,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 29.588125149646594,
+        "RShoulderRoll": -17.164983030520133,
+        "RElbowRoll": 73.44758334169902,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 7.813318867117033,
+        "LShoulderRoll": 28.33672090939961,
+        "LElbowRoll": 73.91182333405482,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 30.015902147124685,
+        "RShoulderRoll": -17.21489452722785,
+        "RElbowRoll": 73.70707722190612,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 5.4656916330370535,
+        "LShoulderRoll": 26.750331661360224,
+        "LElbowRoll": 73.35539639216559,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 29.90203856342501,
+        "RShoulderRoll": -16.865590013247566,
+        "RElbowRoll": 74.76425139318046,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 0.3009026361654321,
+        "LShoulderRoll": 23.29435552954959,
+        "LElbowRoll": 77.57265923733506,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 29.616983736357334,
+        "RShoulderRoll": -16.149430584419907,
+        "RElbowRoll": 75.53448435145395,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -0.751726554074478,
+        "LShoulderRoll": 22.87038051713482,
+        "LElbowRoll": 76.47241846747664,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 29.546561320767374,
+        "RShoulderRoll": -15.800362378057157,
+        "RElbowRoll": 76.86599717899368,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -2.0555752789761894,
+        "LShoulderRoll": 22.314334656781664,
+        "LElbowRoll": 75.30183041243669,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 26.18723737701862,
+        "RShoulderRoll": -9.770690675001457,
+        "RElbowRoll": 76.48032664077755,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -3.4036249556786977,
+        "LShoulderRoll": 22.03190682475262,
+        "LElbowRoll": 75.75886626701792,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 27.64886216415124,
+        "RShoulderRoll": -12.18063604917821,
+        "RElbowRoll": 78.4037331761456,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -5.112476076748368,
+        "LShoulderRoll": 20.76404586089054,
+        "LElbowRoll": 74.52545629902211,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 27.64886216415124,
+        "RShoulderRoll": -12.18063604917821,
+        "RElbowRoll": 78.4037331761456,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -5.112476076748368,
+        "LShoulderRoll": 20.76404586089054,
+        "LElbowRoll": 74.52545629902211,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 29.147527843303564,
+        "RShoulderRoll": -12.55312521561449,
+        "RElbowRoll": 79.46384626432017,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -6.223118655338791,
+        "LShoulderRoll": 19.558659935105712,
+        "LElbowRoll": 74.01520688956941,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 29.675234066542288,
+        "RShoulderRoll": -12.537483363147762,
+        "RElbowRoll": 79.18320680026788,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -6.834999916829814,
+        "LShoulderRoll": 19.16942708096278,
+        "LElbowRoll": 74.33894097215098,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 36.89605370448079,
+        "RShoulderRoll": -20.810990467010537,
+        "RElbowRoll": 84.21254770987265,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -7.4689763689017585,
+        "LShoulderRoll": 18.812538636599154,
+        "LElbowRoll": 74.25514098756177,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 34.4407189532239,
+        "RShoulderRoll": -17.59864284343459,
+        "RElbowRoll": 82.62361889956883,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -8.211623559598086,
+        "LShoulderRoll": 18.387838936772035,
+        "LElbowRoll": 73.55881101014774,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 34.456903838449996,
+        "RShoulderRoll": -17.422685666240604,
+        "RElbowRoll": 83.44753550725973,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -8.8602154014884,
+        "LShoulderRoll": 18.114999168246673,
+        "LElbowRoll": 73.13582514712901,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 28.260479197075433,
+        "RShoulderRoll": -11.267100342035663,
+        "RElbowRoll": 80.43644695561635,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -9.806749794797103,
+        "LShoulderRoll": 18.536673470501725,
+        "LElbowRoll": 97.2132607267441,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 21.085274946247793,
+        "RShoulderRoll": 2.425290840082742,
+        "RElbowRoll": 63.355357001042876,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -10.294986660252048,
+        "LShoulderRoll": 18.348214532092133,
+        "LElbowRoll": 97.15323179517048,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 21.176910465304573,
+        "RShoulderRoll": 2.395869640507673,
+        "RElbowRoll": 63.96127995737058,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -10.710360258886015,
+        "LShoulderRoll": 18.09839113878887,
+        "LElbowRoll": 97.47737427134724,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 21.17777360789509,
+        "RShoulderRoll": 2.5389029477874803,
+        "RElbowRoll": 66.45855170031017,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -10.146685613815924,
+        "LShoulderRoll": 7.59415920525414,
+        "LElbowRoll": 61.03181773502034,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 21.00934757194328,
+        "RShoulderRoll": 2.9398690978998925,
+        "RElbowRoll": 73.2236143109642,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -10.32644260505702,
+        "LShoulderRoll": 6.7261495401220746,
+        "LElbowRoll": 60.5759961908892,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 22.718972787444102,
+        "RShoulderRoll": 3.1979393985187854,
+        "RElbowRoll": 72.56904971070371,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -11.96532942873589,
+        "LShoulderRoll": 6.303271361514496,
+        "LElbowRoll": 59.858629389215466,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 23.139047756563514,
+        "RShoulderRoll": 3.2709059112374823,
+        "RElbowRoll": 72.05785193268655,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -11.813348313257906,
+        "LShoulderRoll": 1.5107401109335687,
+        "LElbowRoll": 55.81568472259785,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 26.109077112774997,
+        "RShoulderRoll": -0.2793487743252717,
+        "RElbowRoll": 73.25516583653958,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -11.92698011122894,
+        "LShoulderRoll": 0.7099752691218659,
+        "LElbowRoll": 55.531416564618,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 24.393661250408456,
+        "RShoulderRoll": 2.0321092856802734,
+        "RElbowRoll": 69.16996609502826,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -12.231641666751019,
+        "LShoulderRoll": -2.783555033149857,
+        "LElbowRoll": 53.536505480184985,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 24.742903611543824,
+        "RShoulderRoll": 1.8963137725259573,
+        "RElbowRoll": 69.13564540642732,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -12.382193393165009,
+        "LShoulderRoll": -3.831659994346799,
+        "LElbowRoll": 81.17596043901172,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 24.951102671636463,
+        "RShoulderRoll": 1.9192235879343824,
+        "RElbowRoll": 69.2318908288561,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -12.134692012964969,
+        "LShoulderRoll": -4.207084423748682,
+        "LElbowRoll": 82.685893255738,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 25.481429925771792,
+        "RShoulderRoll": 1.5349380583346373,
+        "RElbowRoll": 70.1203567709237,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -11.842934777777492,
+        "LShoulderRoll": -4.592086716476486,
+        "LElbowRoll": 83.58388695318136,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 25.19594433462801,
+        "RShoulderRoll": 1.730996231311739,
+        "RElbowRoll": 70.46337454627798,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -11.787187887502524,
+        "LShoulderRoll": -4.6503895486474365,
+        "LElbowRoll": 83.47313961050368,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 24.857997959057045,
+        "RShoulderRoll": 2.5278713045622845,
+        "RElbowRoll": 70.27235890909877,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -12.299787717111847,
+        "LShoulderRoll": -3.819551718874526,
+        "LElbowRoll": 84.85916983722156,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 25.416678524934994,
+        "RShoulderRoll": 2.14174362737627,
+        "RElbowRoll": 71.23688932444384,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -12.090862569869682,
+        "LShoulderRoll": -3.9805849068829375,
+        "LElbowRoll": 84.7958567812223,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 28.330786765231935,
+        "RShoulderRoll": -1.3484303750633915,
+        "RElbowRoll": 75.29795622171082,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -11.830610165030615,
+        "LShoulderRoll": -4.229456519506957,
+        "LElbowRoll": 84.6786790644183,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 26.18714045010414,
+        "RShoulderRoll": 0.8855471745117346,
+        "RElbowRoll": 73.93881272068371,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -11.7198886802539,
+        "LShoulderRoll": -4.212992089271244,
+        "LElbowRoll": 84.73884726610602,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 25.192936876798868,
+        "RShoulderRoll": 1.0652746914691698,
+        "RElbowRoll": 74.25089675182623,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -11.61062629323028,
+        "LShoulderRoll": -1.5354503742663552,
+        "LElbowRoll": 88.12295404894009,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 24.713081250925526,
+        "RShoulderRoll": 1.2553944017852006,
+        "RElbowRoll": 74.55804178702303,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -11.536602709119883,
+        "LShoulderRoll": -1.4803611104955616,
+        "LElbowRoll": 88.33766639150858,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 25.200304460576348,
+        "RShoulderRoll": 1.2101791314817947,
+        "RElbowRoll": 74.35803872016398,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -11.103193725847712,
+        "LShoulderRoll": -2.946656240800541,
+        "LElbowRoll": 86.03866478074458,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 25.488344951053733,
+        "RShoulderRoll": 1.2055820724525492,
+        "RElbowRoll": 76.22055260365252,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -11.13695593210412,
+        "LShoulderRoll": -3.56121684016,
+        "LElbowRoll": 85.8033684812409,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 25.87763012331476,
+        "RShoulderRoll": 1.0246600366716185,
+        "RElbowRoll": 76.21585374989365,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -11.060318223076088,
+        "LShoulderRoll": -4.028630674770184,
+        "LElbowRoll": 85.38675780972788,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 25.87763012331476,
+        "RShoulderRoll": 1.0246600366716185,
+        "RElbowRoll": 76.21585374989365,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -11.060318223076088,
+        "LShoulderRoll": -4.028630674770184,
+        "LElbowRoll": 85.38675780972788,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 25.87763012331476,
+        "RShoulderRoll": 1.0246600366716185,
+        "RElbowRoll": 76.21585374989365,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -11.060318223076088,
+        "LShoulderRoll": -4.028630674770184,
+        "LElbowRoll": 85.38675780972788,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 26.073216784474944,
+        "RShoulderRoll": 0.8929317955075761,
+        "RElbowRoll": 75.90664124054608,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -10.858791808625378,
+        "LShoulderRoll": -4.491778053609392,
+        "LElbowRoll": 84.64252379299124,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 26.122618697506077,
+        "RShoulderRoll": 0.8913662952421186,
+        "RElbowRoll": 75.95454093023123,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -10.741941238477171,
+        "LShoulderRoll": -4.83614957466031,
+        "LElbowRoll": 84.07622823181492,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 26.2077852080102,
+        "RShoulderRoll": 0.7632755398939586,
+        "RElbowRoll": 75.85101699021267,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -10.832535036491759,
+        "LShoulderRoll": -5.049271258649786,
+        "LElbowRoll": 84.5322400275361,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 26.26162793947333,
+        "RShoulderRoll": 0.6877517970556938,
+        "RElbowRoll": 75.75074678083746,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -10.807425375253995,
+        "LShoulderRoll": -5.342532265083982,
+        "LElbowRoll": 84.11912440873017,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 26.318688664494722,
+        "RShoulderRoll": 0.5136222758043402,
+        "RElbowRoll": 75.61481907808412,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -10.80346762280952,
+        "LShoulderRoll": -5.474801182897733,
+        "LElbowRoll": 83.38916669649096,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 26.31606088504094,
+        "RShoulderRoll": 0.5463891106743458,
+        "RElbowRoll": 75.69089968731456,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -10.673292630595766,
+        "LShoulderRoll": -5.5684115896479,
+        "LElbowRoll": 84.10464704707482,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 26.05868238736751,
+        "RShoulderRoll": 1.067195160435954,
+        "RElbowRoll": 76.10109482473712,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -10.593190732589921,
+        "LShoulderRoll": -5.700358991120352,
+        "LElbowRoll": 83.86539940619696,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 26.460517868100652,
+        "RShoulderRoll": 0.9664422095321711,
+        "RElbowRoll": 75.88595460664335,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -8.276889810499927,
+        "LShoulderRoll": -2.4826942348609355,
+        "LElbowRoll": 86.95937272109764,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 26.55317361694707,
+        "RShoulderRoll": 0.9427560390021907,
+        "RElbowRoll": 76.50422190657576,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -9.244766516828673,
+        "LShoulderRoll": -4.192145344855348,
+        "LElbowRoll": 85.03121169408244,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 24.498550395582953,
+        "RShoulderRoll": 1.9959921502001883,
+        "RElbowRoll": 76.6080667448601,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -9.580349836422291,
+        "LShoulderRoll": -3.726457413100627,
+        "LElbowRoll": 85.50873955042587,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 24.882017510938027,
+        "RShoulderRoll": 2.078068243577177,
+        "RElbowRoll": 76.49314197415798,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -9.597757287856902,
+        "LShoulderRoll": -4.230581281140869,
+        "LElbowRoll": 85.1579884093196,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 24.352830056259194,
+        "RShoulderRoll": 2.285072485359345,
+        "RElbowRoll": 76.02773345332845,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -9.305255826558303,
+        "LShoulderRoll": -3.807390117204627,
+        "LElbowRoll": 85.65107409187405,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 24.08786206264479,
+        "RShoulderRoll": 2.297512872934343,
+        "RElbowRoll": 75.94432674917508,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -9.441596359412847,
+        "LShoulderRoll": -3.4789296597612496,
+        "LElbowRoll": 86.3442056683859,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 24.03062291606355,
+        "RShoulderRoll": 2.3055231796442897,
+        "RElbowRoll": 75.59093054087832,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -9.495613332567844,
+        "LShoulderRoll": -3.3747054376963654,
+        "LElbowRoll": 86.34762137996863,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 23.72185967512641,
+        "RShoulderRoll": 2.409590918080106,
+        "RElbowRoll": 75.34864943879802,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -9.658241245277306,
+        "LShoulderRoll": -2.943380212383535,
+        "LElbowRoll": 87.19565363884516,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 23.72185967512641,
+        "RShoulderRoll": 2.409590918080106,
+        "RElbowRoll": 75.34864943879802,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -9.658241245277306,
+        "LShoulderRoll": -2.943380212383535,
+        "LElbowRoll": 87.19565363884516,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 23.651260321064896,
+        "RShoulderRoll": 2.4054584457772776,
+        "RElbowRoll": 75.29163564801856,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -9.778818474616175,
+        "LShoulderRoll": -2.783811982575476,
+        "LElbowRoll": 87.3158838185308,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 26.851749634129696,
+        "RShoulderRoll": -1.4842869277241375,
+        "RElbowRoll": 75.99360247278464,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -18.24396900712237,
+        "LShoulderRoll": 7.421127302672072,
+        "LElbowRoll": 97.96559689779137,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 26.969600376539226,
+        "RShoulderRoll": -1.690998977134656,
+        "RElbowRoll": 76.04460153922919,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -11.01191339548656,
+        "LShoulderRoll": -0.07792972877844101,
+        "LElbowRoll": 91.42171928225842,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 25.731532732356257,
+        "RShoulderRoll": -0.11610910874332794,
+        "RElbowRoll": 75.25598293765631,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -10.713910733350142,
+        "LShoulderRoll": -0.20802781824464,
+        "LElbowRoll": 91.28206333873077,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 23.21197777811136,
+        "RShoulderRoll": 2.4186726298399703,
+        "RElbowRoll": 75.58311095092076,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -10.850944139607186,
+        "LShoulderRoll": 0.03868277748947807,
+        "LElbowRoll": 91.79962670096263,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 21.501296227564225,
+        "RShoulderRoll": 7.170636021085088,
+        "RElbowRoll": 70.28068701860296,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -10.759269271383573,
+        "LShoulderRoll": -0.0008480082030016338,
+        "LElbowRoll": 92.38856329966741,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 21.658666163373724,
+        "RShoulderRoll": 5.643820600992142,
+        "RElbowRoll": 68.8343392744299,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -15.603507897643036,
+        "LShoulderRoll": 8.82978476098494,
+        "LElbowRoll": 100.49261712207401,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 21.82368944460795,
+        "RShoulderRoll": 4.966312068500743,
+        "RElbowRoll": 69.72146499859825,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -15.80204500860251,
+        "LShoulderRoll": 9.294081275774518,
+        "LElbowRoll": 101.34344173286914,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 21.738235874852762,
+        "RShoulderRoll": 4.7475716550867695,
+        "RElbowRoll": 69.66431253449164,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -16.06593717861601,
+        "LShoulderRoll": 9.510275374320184,
+        "LElbowRoll": 94.64549859008305,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 21.600108243357937,
+        "RShoulderRoll": 4.659181197133858,
+        "RElbowRoll": 68.86106485050652,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -16.195322499173265,
+        "LShoulderRoll": 9.680374946561786,
+        "LElbowRoll": 95.16141633911644,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 21.58643171726709,
+        "RShoulderRoll": 4.515659856778975,
+        "RElbowRoll": 66.49860720139019,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -16.208421447473874,
+        "LShoulderRoll": 9.905647062961409,
+        "LElbowRoll": 95.06583104798212,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 21.583228700680678,
+        "RShoulderRoll": 4.0107225509482,
+        "RElbowRoll": 66.82286637597866,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -16.286380957430595,
+        "LShoulderRoll": 10.216901243045843,
+        "LElbowRoll": 95.32174654762632,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 21.59283770750467,
+        "RShoulderRoll": 3.570610651450718,
+        "RElbowRoll": 66.97399657570674,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -16.02026316267626,
+        "LShoulderRoll": 10.908101836154774,
+        "LElbowRoll": 95.71726202003357,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 21.600813325019402,
+        "RShoulderRoll": 3.0829713353271764,
+        "RElbowRoll": 67.06008014674028,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -14.240377695103678,
+        "LShoulderRoll": 19.940363938325365,
+        "LElbowRoll": 92.80519895264752,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 21.674377391195364,
+        "RShoulderRoll": 2.531142169424535,
+        "RElbowRoll": 66.86938269346268,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -13.48849039362278,
+        "LShoulderRoll": 22.09054248667061,
+        "LElbowRoll": 87.66324495074957,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 21.57480067916103,
+        "RShoulderRoll": 2.2246450471376966,
+        "RElbowRoll": 67.55496130518515,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -13.902247170144049,
+        "LShoulderRoll": 13.52393908691674,
+        "LElbowRoll": 74.91494558224849,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 21.88748822543789,
+        "RShoulderRoll": 1.8724614462554388,
+        "RElbowRoll": 67.01759536683872,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -12.018614968765986,
+        "LShoulderRoll": 21.04921005865404,
+        "LElbowRoll": 73.88453396635995,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 22.0125511165174,
+        "RShoulderRoll": 1.6670016784776904,
+        "RElbowRoll": 66.55726804488282,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -11.849845766238623,
+        "LShoulderRoll": 21.22064105055056,
+        "LElbowRoll": 73.82975170528127,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 27.781435661328857,
+        "RShoulderRoll": -14.489002278820855,
+        "RElbowRoll": 80.59255908523977,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -11.768650050129807,
+        "LShoulderRoll": 21.63125678053521,
+        "LElbowRoll": 73.60446864081044,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 28.3305968849048,
+        "RShoulderRoll": -16.375554456158767,
+        "RElbowRoll": 82.2307084967157,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -11.447480242198571,
+        "LShoulderRoll": 22.315359647181502,
+        "LElbowRoll": 72.21552284257193,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 28.68505068220827,
+        "RShoulderRoll": -18.075410400674514,
+        "RElbowRoll": 83.60152118832792,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -10.56843212114974,
+        "LShoulderRoll": 23.24267168538977,
+        "LElbowRoll": 71.52712409154864,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 28.68505068220827,
+        "RShoulderRoll": -18.075410400674514,
+        "RElbowRoll": 83.60152118832792,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -10.56843212114974,
+        "LShoulderRoll": 23.24267168538977,
+        "LElbowRoll": 71.52712409154864,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 28.63491515605815,
+        "RShoulderRoll": -18.389658959694376,
+        "RElbowRoll": 82.0262594160913,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -9.089041911233624,
+        "LShoulderRoll": 24.563109816839486,
+        "LElbowRoll": 72.04370607872329,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 27.185856964233132,
+        "RShoulderRoll": -20.67979815322312,
+        "RElbowRoll": 79.34500284098473,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -7.735357794799995,
+        "LShoulderRoll": 24.792492065785762,
+        "LElbowRoll": 72.72092796549838,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 25.495417787482793,
+        "RShoulderRoll": -21.72236717151148,
+        "RElbowRoll": 81.90952417470152,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -6.791106973200885,
+        "LShoulderRoll": 24.73282680503767,
+        "LElbowRoll": 74.51771377049666,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 25.685351616613872,
+        "RShoulderRoll": -23.41570188089097,
+        "RElbowRoll": 83.66765835522635,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -6.258144532174584,
+        "LShoulderRoll": 24.8773627768336,
+        "LElbowRoll": 74.64305858529836,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 30.822824052305123,
+        "RShoulderRoll": -29.011770733900992,
+        "RElbowRoll": 86.34996021875233,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -4.86473885971663,
+        "LShoulderRoll": 26.06148463227809,
+        "LElbowRoll": 75.19946162643001,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 30.895482069549836,
+        "RShoulderRoll": -28.77933423228872,
+        "RElbowRoll": 85.42424372335726,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -4.156974092049353,
+        "LShoulderRoll": 26.182898432435437,
+        "LElbowRoll": 72.80934404565788,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 32.183935242168026,
+        "RShoulderRoll": -27.747067981154412,
+        "RElbowRoll": 80.49351156175871,
+        "RElbowYaw": 0,
+        "LShoulderPitch": -2.6332272928407505,
+        "LShoulderRoll": 27.542963732515584,
+        "LElbowRoll": 76.32450912344962,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 35.5206178750627,
+        "RShoulderRoll": -30.25839643153781,
+        "RElbowRoll": 82.72336655901223,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 3.3353500182871585,
+        "LShoulderRoll": 34.64579787302461,
+        "LElbowRoll": 86.15344297658335,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 36.50223890015342,
+        "RShoulderRoll": -30.92312293284377,
+        "RElbowRoll": 82.49059783298542,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 3.1596102217882844,
+        "LShoulderRoll": 35.230219671571014,
+        "LElbowRoll": 85.14152545400712,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 37.07194323112041,
+        "RShoulderRoll": -31.4963154780185,
+        "RElbowRoll": 80.20059328114934,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 5.260067279154981,
+        "LShoulderRoll": 36.00659404965172,
+        "LElbowRoll": 83.82395935837341,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 37.340093236663535,
+        "RShoulderRoll": -31.659489819950025,
+        "RElbowRoll": 77.73012788716406,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 10.637597270986646,
+        "LShoulderRoll": 39.0647485079027,
+        "LElbowRoll": 84.96140659988514,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 37.623630982308725,
+        "RShoulderRoll": -32.35381776954849,
+        "RElbowRoll": 76.20148141958232,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 12.62367442797698,
+        "LShoulderRoll": 38.91715464599574,
+        "LElbowRoll": 82.22011594747663,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 39.54668206928696,
+        "RShoulderRoll": -36.14598364025481,
+        "RElbowRoll": 73.41578425994204,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 20.883633100775143,
+        "LShoulderRoll": 36.035944256580365,
+        "LElbowRoll": 72.99983589643121,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 39.517575987519265,
+        "RShoulderRoll": -35.27276669020505,
+        "RElbowRoll": 68.71861544185275,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 22.806836297154973,
+        "LShoulderRoll": 35.717837587848905,
+        "LElbowRoll": 84.96844058668336,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 40.52465959450424,
+        "RShoulderRoll": -35.35587981039817,
+        "RElbowRoll": 66.88374354607207,
+        "RElbowYaw": 37.397983179675904,
+        "LShoulderPitch": 33.92085998021596,
+        "LShoulderRoll": 46.270363020687185,
+        "LElbowRoll": 76.4739077944955,
+        "LElbowYaw": 121.13119296680546
+    },
+    {
+        "RShoulderPitch": 40.52465959450424,
+        "RShoulderRoll": -35.35587981039817,
+        "RElbowRoll": 66.88374354607207,
+        "RElbowYaw": 37.397983179675904,
+        "LShoulderPitch": 33.92085998021596,
+        "LShoulderRoll": 46.270363020687185,
+        "LElbowRoll": 76.4739077944955,
+        "LElbowYaw": 121.13119296680546
+    },
+    {
+        "RShoulderPitch": 41.96070872843563,
+        "RShoulderRoll": -38.22248556006745,
+        "RElbowRoll": 53.23815372724303,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 42.43945288823795,
+        "LShoulderRoll": 47.57971600360652,
+        "LElbowRoll": 67.87699186049417,
+        "LElbowYaw": -90
+    },
+    {
+        "RShoulderPitch": 42.64994719637471,
+        "RShoulderRoll": -37.89269026092257,
+        "RElbowRoll": 60.24471426354802,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 42.61439957744823,
+        "LShoulderRoll": 47.87610350856751,
+        "LElbowRoll": 66.4399609992421,
+        "LElbowYaw": -90
+    },
+    {
+        "RShoulderPitch": 42.586971763783836,
+        "RShoulderRoll": -37.92174782547213,
+        "RElbowRoll": 60.796187121313835,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 42.83370516411943,
+        "LShoulderRoll": 47.717517185952566,
+        "LElbowRoll": 67.82435004425487,
+        "LElbowYaw": -90
+    },
+    {
+        "RShoulderPitch": 37.23446055512586,
+        "RShoulderRoll": -32.37780172732026,
+        "RElbowRoll": 60.17970747410067,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 42.97281559938727,
+        "LShoulderRoll": 47.757115785212456,
+        "LElbowRoll": 58.65048131652718,
+        "LElbowYaw": -90
+    },
+    {
+        "RShoulderPitch": 36.9271769571234,
+        "RShoulderRoll": -31.888259692346967,
+        "RElbowRoll": 62.96927817630517,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 46.2258054199713,
+        "LShoulderRoll": 48.98432964454047,
+        "LElbowRoll": 56.88737442832354,
+        "LElbowYaw": -90
+    },
+    {
+        "RShoulderPitch": 37.081822315060855,
+        "RShoulderRoll": -31.36767041271747,
+        "RElbowRoll": 50.24546294696307,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 36.623008117502266,
+        "LShoulderRoll": 38.17105509602595,
+        "LElbowRoll": 54.60601935119041,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 37.417849536339084,
+        "RShoulderRoll": -31.0113228195498,
+        "RElbowRoll": 49.54067502105764,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 41.32776749709619,
+        "LShoulderRoll": 41.7874536237789,
+        "LElbowRoll": 58.20532452324508,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 39.12381028675535,
+        "RShoulderRoll": -31.469236992889577,
+        "RElbowRoll": 56.07522279388577,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 43.66140240634215,
+        "LShoulderRoll": 43.35711485903558,
+        "LElbowRoll": 59.48633221168916,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 40.47997127378259,
+        "RShoulderRoll": -31.61899823156506,
+        "RElbowRoll": 47.534908695000155,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 46.858623337153176,
+        "LShoulderRoll": 45.648304605567475,
+        "LElbowRoll": 59.954052582009425,
+        "LElbowYaw": 108.35995387844461
+    },
+    {
+        "RShoulderPitch": 42.64530105016128,
+        "RShoulderRoll": -32.52697995432282,
+        "RElbowRoll": 55.59748019703825,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 62.564670463861795,
+        "LShoulderRoll": 48.66415577135558,
+        "LElbowRoll": 49.99455921135737,
+        "LElbowYaw": 128.46822837562655
+    },
+    {
+        "RShoulderPitch": 44.1734136967643,
+        "RShoulderRoll": -32.46281081699271,
+        "RElbowRoll": 55.19175179077911,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 51.00336117601296,
+        "LShoulderRoll": 45.17913985044596,
+        "LElbowRoll": 48.0275152730091,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 46.524923340971476,
+        "RShoulderRoll": -33.28732683825725,
+        "RElbowRoll": 51.67872091464065,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 51.86608272377901,
+        "LShoulderRoll": 45.63011695119859,
+        "LElbowRoll": 49.644237136918576,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 47.716031167271254,
+        "RShoulderRoll": -33.42073776759895,
+        "RElbowRoll": 48.11476624460465,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 54.04232600289329,
+        "LShoulderRoll": 46.78984008188517,
+        "LElbowRoll": 49.58672530360468,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 47.716031167271254,
+        "RShoulderRoll": -33.42073776759895,
+        "RElbowRoll": 48.11476624460465,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 54.04232600289329,
+        "LShoulderRoll": 46.78984008188517,
+        "LElbowRoll": 49.58672530360468,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 50.427249350842395,
+        "RShoulderRoll": -34.61842868173618,
+        "RElbowRoll": 48.42039893037165,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 55.84553253477397,
+        "LShoulderRoll": 46.90263668252938,
+        "LElbowRoll": 48.53415118835636,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 51.34916435318116,
+        "RShoulderRoll": -33.61824936359071,
+        "RElbowRoll": 45.87868322747741,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 56.92325753527493,
+        "LShoulderRoll": 46.960891919527924,
+        "LElbowRoll": 43.37294504978061,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 51.34916435318116,
+        "RShoulderRoll": -33.61824936359071,
+        "RElbowRoll": 45.87868322747741,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 56.92325753527493,
+        "LShoulderRoll": 46.960891919527924,
+        "LElbowRoll": 43.37294504978061,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 53.79387769522485,
+        "RShoulderRoll": -34.05617610119668,
+        "RElbowRoll": 43.632987501600496,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 60.72173231364282,
+        "LShoulderRoll": 49.044038241721,
+        "LElbowRoll": 45.60328087994577,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 57.04196668651612,
+        "RShoulderRoll": -35.746489747216444,
+        "RElbowRoll": 43.81713302561508,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 62.213493277731374,
+        "LShoulderRoll": 48.96420243699604,
+        "LElbowRoll": 43.7679802820914,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 57.877378914080715,
+        "RShoulderRoll": -36.09427157180457,
+        "RElbowRoll": 43.58991836233517,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 62.94768768364551,
+        "LShoulderRoll": 49.28824331698381,
+        "LElbowRoll": 42.88910108623142,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 59.1105920797164,
+        "RShoulderRoll": -36.50902525450912,
+        "RElbowRoll": 43.24509154311963,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 63.87552584237154,
+        "LShoulderRoll": 49.572054084849285,
+        "LElbowRoll": 42.15340490160435,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 60.23282113068203,
+        "RShoulderRoll": -36.85797117250582,
+        "RElbowRoll": 42.85998148274987,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 64.03827010942395,
+        "LShoulderRoll": 48.95365707045478,
+        "LElbowRoll": 40.50705384869204,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 71.56122821566605,
+        "RShoulderRoll": -35.85541368993459,
+        "RElbowRoll": 42.9276800129345,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 64.76435831021769,
+        "LShoulderRoll": 48.5945224377595,
+        "LElbowRoll": 39.85935236742881,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 71.58127983186482,
+        "RShoulderRoll": -35.9368912965794,
+        "RElbowRoll": 42.37564215379368,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 65.43596822737513,
+        "LShoulderRoll": 47.56968358923968,
+        "LElbowRoll": 37.83210626493016,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 71.81224313063863,
+        "RShoulderRoll": -36.008517410218346,
+        "RElbowRoll": 42.21732069187547,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 79.58220042975883,
+        "LShoulderRoll": 46.5577987303714,
+        "LElbowRoll": 50.80200845487553,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 72.08373490077017,
+        "RShoulderRoll": -36.17889910027943,
+        "RElbowRoll": 42.12273307087901,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 79.66309934491274,
+        "LShoulderRoll": 46.56777890045322,
+        "LElbowRoll": 50.190612727912566,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 72.08373490077017,
+        "RShoulderRoll": -36.17889910027943,
+        "RElbowRoll": 42.12273307087901,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 79.66309934491274,
+        "LShoulderRoll": 46.56777890045322,
+        "LElbowRoll": 50.190612727912566,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 72.61449352673063,
+        "RShoulderRoll": -36.37013997483787,
+        "RElbowRoll": 41.80746062024099,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 79.79242551041584,
+        "LShoulderRoll": 46.39346370186949,
+        "LElbowRoll": 48.87000091813576,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 73.04998738624577,
+        "RShoulderRoll": -36.4036900391614,
+        "RElbowRoll": 41.50927693039307,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 79.82788103615303,
+        "LShoulderRoll": 46.36071555583394,
+        "LElbowRoll": 48.408150326637895,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 73.56976632266144,
+        "RShoulderRoll": -36.289317218965316,
+        "RElbowRoll": 41.43737536380223,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 79.95100964944999,
+        "LShoulderRoll": 46.15716596705225,
+        "LElbowRoll": 47.95572928157915,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 73.56976632266144,
+        "RShoulderRoll": -36.289317218965316,
+        "RElbowRoll": 41.43737536380223,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 79.95100964944999,
+        "LShoulderRoll": 46.15716596705225,
+        "LElbowRoll": 47.95572928157915,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 73.99786922035653,
+        "RShoulderRoll": -36.27252849641053,
+        "RElbowRoll": 41.21695222914772,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 80.11855323254538,
+        "LShoulderRoll": 46.01372349185395,
+        "LElbowRoll": 47.640504702842264,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 75.03182603685234,
+        "RShoulderRoll": -36.203322271383236,
+        "RElbowRoll": 41.0371054809865,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 80.46220948498373,
+        "LShoulderRoll": 45.841408146439626,
+        "LElbowRoll": 46.63866595706287,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 75.2418932620022,
+        "RShoulderRoll": -36.17899205251625,
+        "RElbowRoll": 40.93837968164439,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 80.5607661778192,
+        "LShoulderRoll": 45.825812419682954,
+        "LElbowRoll": 46.312620891018895,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 75.58404519759054,
+        "RShoulderRoll": -36.19580605819574,
+        "RElbowRoll": 40.604968284195365,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 80.84172310707768,
+        "LShoulderRoll": 45.688360412326126,
+        "LElbowRoll": 46.05844773798162,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 75.92748050346242,
+        "RShoulderRoll": -36.10434431441072,
+        "RElbowRoll": 40.404856190787825,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 80.99624297627733,
+        "LShoulderRoll": 45.618606840995874,
+        "LElbowRoll": 45.766312774046355,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 75.92748050346242,
+        "RShoulderRoll": -36.10434431441072,
+        "RElbowRoll": 40.404856190787825,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 80.99624297627733,
+        "LShoulderRoll": 45.618606840995874,
+        "LElbowRoll": 45.766312774046355,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 76.15400633816265,
+        "RShoulderRoll": -36.14110415190266,
+        "RElbowRoll": 40.33465111923513,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 81.23300759650621,
+        "LShoulderRoll": 45.53813045539099,
+        "LElbowRoll": 45.7120579637579,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 76.22745853791557,
+        "RShoulderRoll": -36.146922022269045,
+        "RElbowRoll": 40.016468025214095,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 81.50203651455585,
+        "LShoulderRoll": 45.43374717433629,
+        "LElbowRoll": 45.668982032984076,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 76.64621323383435,
+        "RShoulderRoll": -36.09731261872774,
+        "RElbowRoll": 40.04327569629001,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 81.61783630939301,
+        "LShoulderRoll": 45.234236892739716,
+        "LElbowRoll": 45.39178789351763,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 76.84133145186743,
+        "RShoulderRoll": -36.10033170029502,
+        "RElbowRoll": 39.97067595394756,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 81.7758777330365,
+        "LShoulderRoll": 45.06582986518121,
+        "LElbowRoll": 45.19036594577162,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 77.14005520797868,
+        "RShoulderRoll": -35.95418302949393,
+        "RElbowRoll": 39.83075086050255,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 81.9221624474234,
+        "LShoulderRoll": 44.9974348104077,
+        "LElbowRoll": 45.196164519525354,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 77.39561637372299,
+        "RShoulderRoll": -35.84663328456815,
+        "RElbowRoll": 39.911019563216314,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 82.11081154962346,
+        "LShoulderRoll": 44.9778000025123,
+        "LElbowRoll": 45.28442727344719,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 77.70919708382284,
+        "RShoulderRoll": -35.476560176335866,
+        "RElbowRoll": 39.85072608168085,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 82.39426503480256,
+        "LShoulderRoll": 44.763395960104184,
+        "LElbowRoll": 45.28212748267052,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 77.78541466024599,
+        "RShoulderRoll": -35.389284396922875,
+        "RElbowRoll": 39.845809594629344,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 82.45331796686497,
+        "LShoulderRoll": 44.59727680693557,
+        "LElbowRoll": 45.09759147906257,
+        "LElbowYaw": 0
+    },
+    {
+        "RShoulderPitch": 77.83619558104704,
+        "RShoulderRoll": -35.43266920660677,
+        "RElbowRoll": 39.90637181831224,
+        "RElbowYaw": 0,
+        "LShoulderPitch": 82.55040192685708,
+        "LShoulderRoll": 44.48519439890865,
+        "LElbowRoll": 45.082750604148174,
+        "LElbowYaw": 0
+    }
+]
