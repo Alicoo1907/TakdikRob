@@ -6,6 +6,8 @@ Bu proje, [ActFormer: A GAN-based Transformer towards General Action-Conditioned
 
 Aşağıda, modelin K18 test kişisi üzerinde ürettiği 15 farklı aksiyonun **en düşük FID skoruna sahip** (en başarılı) örnekleri yer almaktadır. Sol taraf gerçek hareketi, sağ taraf modelin ürettiği hareketi göstermektedir.
 
+![Dataset Hareketleri](Dataset/hareketler.PNG)
+
 | Aksiyon | Karşılaştırma (Real vs Fake) | Aksiyon | Karşılaştırma (Real vs Fake) |
 | :--- | :--- | :--- | :--- |
 | **A001** | ![A001](Results/k18_comparisons_gif/compare_K18_A001_R02.gif) | **A002** | ![A002](Results/k18_comparisons_gif/compare_K18_A002_R01.gif) |
@@ -16,16 +18,6 @@ Aşağıda, modelin K18 test kişisi üzerinde ürettiği 15 farklı aksiyonun *
 | **A011** | ![A011](Results/k18_comparisons_gif/compare_K18_A011_R01.gif) | **A012** | ![A012](Results/k18_comparisons_gif/compare_K18_A012_R04.gif) |
 | **A013** | ![A013](Results/k18_comparisons_gif/compare_K18_A013_R02.gif) | **A014** | ![A014](Results/k18_comparisons_gif/compare_K18_A014_R02.gif) |
 | **A015** | ![A015](Results/k18_comparisons_gif/compare_K18_A015_R03.gif) | | |
-
----
-
-## Eğitim Grafikleri
-
-### NAO Pipeline Loss
-![NAO Loss](Results/Train_Loss_Graph/loss_epoch1915.png)
-
-### NTU49_7J Pipeline Loss
-![NTU Loss](NTU49_7J/Results/Train_Loss_Graph/loss_epoch25.png)
 
 ---
 
