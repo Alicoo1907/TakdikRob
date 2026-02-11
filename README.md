@@ -135,8 +135,31 @@ Bu çalışma, Türkiye Bilimsel ve Teknolojik Araştırma Kurumu (TÜBİTAK) ta
 
 ---
 
+## Atıf (Citation)
+
+Eğer bu projeyi veya veri setini araştırmalarınızda kullanırsanız, lütfen aşağıdaki şekilde atıfta bulunun:
+
+```bibtex
+@inproceedings{ccoban2025nao,
+  title={NAO and Expert Imitating Each Other: A New Robot Action Dataset},
+  author={{\c{C}}oban, Ali and Sari, Serhat Ula{\c{s}} and Karada{\u{g}}, {\"O}zge {\"O}ztimur and {\"O}zyer, Bar{\i}{\c{s}}},
+  booktitle={2025 33rd Signal Processing and Communications Applications Conference (SIU)},
+  pages={1--4},
+  year={2025},
+  organization={IEEE}
+}
+```
+
+---
+
 ## Proje Kapsamında Yapılan Diğer Çalışmalar
 
 *   **AGMS-GCN: Attention-guided multi-scale graph convolutional networks for skeleton-based action recognition**  
     [İncele (ScienceDirect)](https://www.sciencedirect.com/science/article/pii/S0950705125000929) | [GitHub Repository](https://github.com/ugrkilc/AGMS-GCN)
+
+---
+
+## Lisans (License)
+
+Bu proje [MIT](LICENSE) lisansı altında lisanslanmıştır.
 
