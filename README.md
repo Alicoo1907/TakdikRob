@@ -1,6 +1,6 @@
 # ActFormer - Human Motion Generation Project
 
-Bu proje, ActFormer (Action Transformer) mimarisini kullanarak verilen etiketlere göre gerçekçi 3D insan hareketleri üretir.
+Bu proje, [ActFormer: A GAN-based Transformer towards General Action-Conditioned 3D Human Motion Generation (ICCV 2023)](https://github.com/Szy-Young/actformer) çalışmasından esinlenilmiş olup, orijinal mimari üzerinde modifikasyonlar ve iyileştirmeler yapılarak geliştirilmiştir. ActFormer tabanlı bu yapı, verilen etiketlere göre gerçekçi 3D insan hareketleri üretir.
 
 ## Desteklenen Veri Setleri
 
@@ -113,4 +113,11 @@ Bu çalışma, Türkiye Bilimsel ve Teknolojik Araştırma Kurumu (TÜBİTAK) ta
 
 *   **NAO and Expert Imitating Each Other: A New Robot Action Dataset**  
     [İncele (IEEE Xplore)](https://ieeexplore.ieee.org/abstract/document/11112493)
+
+---
+
+## Proje Kapsamında Yapılan Diğer Çalışmalar
+
+*   **AGMS-GCN: Attention-guided multi-scale graph convolutional networks for skeleton-based action recognition**  
+    [İncele (ScienceDirect)](https://www.sciencedirect.com/science/article/pii/S0950705125000929) | [GitHub Repository](https://github.com/ugrkilc/AGMS-GCN)
 
