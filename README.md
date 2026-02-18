@@ -1,6 +1,6 @@
 # ActFormer - Human Motion Generation Project
 
-Bu proje, [ActFormer: A GAN-based Transformer towards General Action-Conditioned 3D Human Motion Generation (ICCV 2023)](https://github.com/Szy-Young/actformer) çalışmasından esinlenilmiş olup, orijinal mimari üzerinde modifikasyonlar ve iyileştirmeler yapılarak geliştirilmiştir. ActFormer tabanlı bu yapı, verilen etiketlere göre gerçekçi 3D insan hareketleri üretir.
+Bu proje, [ActFormer: A GAN-based Transformer towards General Action-Conditioned 3D Human Motion Generation (ICCV 2023)](https://github.com/Szy-Young/actformer) çalışmasından esinlenilmiş olup, orijinal mimari üzerinde modifikasyonlar ve iyileştirmeler yapılarak geliştirilmiştir. ActFormer tabanlı bu yapı, verilen etiketlere göre gerçekçi 3D robot hareketleri üretir.
 
 ## Görselleştirme ve Demo (K18 Test Kişisi)
 
