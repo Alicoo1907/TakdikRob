@@ -6,9 +6,9 @@ import csv
 from tqdm import tqdm
 import numpy as np
 
+from net_G import ActFormer_Generator
 # === Parent dizinden model importlari ===
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from net_G import ActFormer_Generator
 from net_D import GCN_Discriminator
 from gp_sampling import sample_gp
 from data_loader_ntu import get_ntu_loader
@@ -25,6 +25,8 @@ T = 64  # NTU frame sayisi (NAO=60)
 V = 7
 C = 3
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+RESUME_FROM = 0  # Devam etmek istediginiz epoch numarasi (0 = sifirdan basla)
+START_EPOCH = RESUME_FROM + 1
 
 # === Paths ===
 SPLIT = "xsub"  # "xsub" veya "xview"
@@ -39,9 +41,10 @@ os.makedirs(SAVE_PATH, exist_ok=True)
 os.makedirs(Graph_Path, exist_ok=True)
 
 csv_path = os.path.join(Graph_Path, "loss_log.csv")
-with open(csv_path, mode='w', newline='') as f:
-    writer = csv.writer(f)
-    writer.writerow(["Epoch", "G_Loss", "D_Loss"])
+if RESUME_FROM == 0:
+    with open(csv_path, mode='w', newline='') as f:
+        writer = csv.writer(f)
+        writer.writerow(["Epoch", "G_Loss", "D_Loss"])
 
 
 # ============================================================
@@ -83,6 +86,20 @@ optimizer_G = torch.optim.Adam(net_G.parameters(), lr=1e-4, betas=(0.5, 0.999))
 optimizer_D = torch.optim.Adam(net_D.parameters(), lr=1e-4, betas=(0.5, 0.999))
 scheduler_G = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer_G, T_max=EPOCHS, eta_min=1e-6)
 scheduler_D = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer_D, T_max=EPOCHS, eta_min=1e-6)
+
+# === Resume Logic ===
+if RESUME_FROM > 0:
+    print(f"Resuming from epoch {RESUME_FROM}...")
+    net_G.load_state_dict(torch.load(os.path.join(SAVE_PATH, f"netG_epoch{RESUME_FROM}.pt"), map_location=DEVICE))
+    net_D.load_state_dict(torch.load(os.path.join(SAVE_PATH, f"netD_epoch{RESUME_FROM}.pt"), map_location=DEVICE))
+    
+    # schedulerlari ilerletmek icin (her batch icin bir adim)
+    # len(train_loader) * RESUME_FROM kadar step atmamiz gerekiyor
+    steps_done = len(train_loader) * RESUME_FROM
+    for _ in range(steps_done):
+        scheduler_G.step()
+        scheduler_D.step()
+    print(f"Schedulers advanced by {steps_done} steps.")
 
 
 # ============================================================
@@ -173,13 +190,36 @@ def center_joint_loss(motion, center_idx=3, w_static=1.0, w_smooth=0.3):
 g_losses = []
 d_losses = []
 
+if RESUME_FROM > 0:
+    if os.path.exists(csv_path):
+        rows = []
+        with open(csv_path, mode='r') as f:
+            reader = csv.reader(f)
+            header = next(reader)
+            for row in reader:
+                if int(row[0]) <= RESUME_FROM:
+                    rows.append(row)
+        
+        # CSV'yi resume edilen epoch'a kadar temizle (duplike olmamasi icin)
+        with open(csv_path, mode='w', newline='') as f:
+            writer = csv.writer(f)
+            writer.writerow(header)
+            writer.writerows(rows)
+            
+        # Listeleri doldur
+        for row in rows:
+            g_losses.append(float(row[1]))
+            d_losses.append(float(row[2]))
+            
+        print(f"Loaded and cleaned {len(g_losses)} previous loss records from CSV.")
+
 print(f"\n{'='*60}")
 print(f"  NTU49_7J Training | Split: {SPLIT}")
 print(f"  Classes: {NUM_CLASSES} | T: {T} | Epochs: {EPOCHS}")
 print(f"  Device: {DEVICE}")
 print(f"{'='*60}\n")
 
-for epoch in tqdm(range(1, EPOCHS + 1), desc="Epoch Progress"):
+for epoch in tqdm(range(START_EPOCH, EPOCHS + 1), desc="Epoch Progress"):
     batch_bar = tqdm(train_loader, desc=f"Epoch {epoch}", leave=False)
     for real_seq, labels, _ in batch_bar:
         real_seq = real_seq.to(DEVICE)  # (B, 3, 7, T=64)
@@ -242,7 +282,7 @@ for epoch in tqdm(range(1, EPOCHS + 1), desc="Epoch Progress"):
         writer.writerow([epoch, total_g_loss.item(), d_loss.item()])
 
     # === Save checkpoint ===
-    if epoch % 25 == 0 or epoch == EPOCHS:
+    if epoch % 20 == 0 or epoch == EPOCHS:
         torch.save(net_G.state_dict(), os.path.join(SAVE_PATH, f"netG_epoch{epoch}.pt"))
         torch.save(net_D.state_dict(), os.path.join(SAVE_PATH, f"netD_epoch{epoch}.pt"))
         print(f"Models saved at epoch {epoch}")

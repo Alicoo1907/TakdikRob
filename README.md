@@ -91,6 +91,13 @@ python visualize_comparison.py # 6. Görselleştirme
 | `visualize_comparison.py` | Gerçek vs Sahte görselleştirme |
 | `data_loader_ntu.py` | npy/pkl veri yükleme modülü |
 
+### Final Başarı Metrikleri
+
+| Kriter | Kapsam | Değer |
+| :--- | :--- | :--- | 
+| **Global FID** (Ana Metrik) | NTU49 Test Seti | **34.7** |
+
+
 > Detaylı bilgi için: [NTU49_7J/README.md](NTU49_7J/README.md)
 
 ---
@@ -114,10 +121,9 @@ Actformer_Nao/
 │   └── fid_encoder.pt
 └── NTU49_7J/                               # NTU pipeline
     ├── xsub/, xview/                       # NTU veri seti (npy/pkl)
-    ├── main.py, test_final.py, ...         # NTU scriptleri
+    ├── main.py, test_val.py, ...         # NTU scriptleri
     └── Results/                            # NTU sonuçları
         ├── saved_models/
-        ├── Full_Train_Generation/
         └── fid_encoder.pt
 ```
 

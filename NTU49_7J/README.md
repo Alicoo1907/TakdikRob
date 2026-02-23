@@ -54,7 +54,7 @@ cd NTU49_7J
 python main.py
 ```
 
-**Not:** Modeller her 50 epochta bir `Results/saved_models/` altına kaydedilir.
+**Not:** Modeller her 20 epochta bir `Results/saved_models/` altına kaydedilir.
 
 ### 2. En İyi Modeli Belirleme
 ```bash
@@ -101,6 +101,12 @@ python visualize_comparison.py
 | embed_dim_ratio | 64 |
 | depth | 12 |
 | num_heads | 14 |
+
+## Final Başarı Metrikleri
+
+| Kriter | Kapsam | Değer |
+| :--- | :--- | :--- | 
+| **Global FID** (Ana Metrik) | NTU49 Test Seti | **34.7** |
 
 ### Generator Loss Bileşenleri
 ```

@@ -13,6 +13,7 @@ import torch.nn as nn
 from tqdm import tqdm
 import matplotlib.pyplot as plt
 
+from net_G import ActFormer_Generator
 # === Parent dizinden importlar ===
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from fid import ActFormerEncoder7

@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, SPLIT)
 REAL_DATA_PATH = os.path.join(DATA_DIR, "val_data_joint.npy")
 REAL_LABEL_PATH = os.path.join(DATA_DIR, "val_label.pkl")
-FAKE_DIR = os.path.join(BASE_DIR, "Results", "Full_Train_Generation")
+FAKE_DIR = os.path.join(BASE_DIR, "Results", "Full_Val_Generation")
 SAVE_DIR = os.path.join(BASE_DIR, "Results", "comparisons")
 NUM_SAMPLES = 20  # Kac adet karsilastirma GIF olusturulacak
 
