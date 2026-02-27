@@ -57,12 +57,14 @@ python visualize_k18_comparison.py # 6. Görselleştirme (GIF)
 
 ### Final Başarı Metrikleri (Phase 2)
 
-| Kriter | Kapsam | Değer |
+| Metrik | Kapsam | Değer |
 | :--- | :--- | :--- | 
-| **Global FID** (Ana Metrik) | Train Kayıtları (1080 Seq) | **1.1096** 
-| **Global FID** (Ana Metrik) | K18 Test Kişisi (60 Seq) | **3.8924** 
+| **FID_m ↓** | Train Kayıtları (1080 Seq) | **1.1096** |
+| **FID_m ↓** | K18 Test Kişisi (60 Seq) | **3.8924** |
+| **FID_w ↓** | K18 Test Kişisi | **13.5031** |
+| **ACC ↑** | K18 Test Kişisi | **100%** |
 | Ortalama FID (Sıralı) | Train Kayıtları | 17.3030 |
-| Ortalama FID (Sıralı) | K18 Test Kişisi | 9.7693 | 
+| Ortalama FID (Sıralı) | K18 Test Kişisi | 9.7693 |
 
 ---
 
@@ -93,9 +95,11 @@ python visualize_comparison.py # 6. Görselleştirme
 
 ### Final Başarı Metrikleri
 
-| Kriter | Kapsam | Değer |
+| Metrik | Kapsam | Değer |
 | :--- | :--- | :--- | 
-| **Global FID** (Ana Metrik) | NTU49 Test Seti | **34.7** |
+| **FID_m ↓** | NTU49 Val (xsub) | **34.7** |
+| **FID_w ↓** | NTU49 Val (xsub) | **228.5067** |
+| **ACC ↑** | NTU49 Val (xsub) | **58.5%** |
 
 
 > Detaylı bilgi için: [NTU49_7J/README.md](NTU49_7J/README.md)

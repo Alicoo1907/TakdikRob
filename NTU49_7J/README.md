@@ -104,9 +104,11 @@ python visualize_comparison.py
 
 ## Final Başarı Metrikleri
 
-| Kriter | Kapsam | Değer |
+| Metrik | Kapsam | Değer |
 | :--- | :--- | :--- | 
-| **Global FID** (Ana Metrik) | NTU49 Test Seti | **34.7** |
+| **FID_m ↓** | NTU49 Val (xsub) | **34.7** |
+| **FID_w ↓** | NTU49 Val (xsub) | **228.5067** |
+| **ACC ↑** | NTU49 Val (xsub) | **58.5%** |
 
 ### Generator Loss Bileşenleri
 ```
