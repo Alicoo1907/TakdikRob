@@ -208,8 +208,6 @@ for epoch in tqdm(range(1, EPOCHS + 1), desc="Epoch Progress"):
         fake_out = net_D(fake_seq, labels)
         g_adv_loss = g_loss_fn(fake_out)
 
-        # SOTA TRICK: L1 Reconstruction loss to force alignment with real data
-        # This closes the gap between 'visual quality' and 'FID score'
         g_l1_loss = torch.mean(torch.abs(real_seq - fake_seq))
 
         loss_center = center_joint_loss(fake_seq, center_idx=0)
