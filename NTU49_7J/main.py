@@ -234,8 +234,14 @@ for epoch in tqdm(range(START_EPOCH, EPOCHS + 1), desc="Epoch Progress"):
         real_seq.requires_grad = True
         real_out = net_D(real_seq, labels)
 
+        grad_real = torch.autograd.grad(
+            outputs=real_out.sum(), inputs=real_seq,
+            create_graph=True, retain_graph=True, only_inputs=True
+        )[0]
+        r1_penalty = (grad_real.view(grad_real.size(0), -1).norm(2, dim=1) ** 2).mean()
+
         fake_out = net_D(fake_seq.detach(), labels)
-        d_loss = d_loss_fn(real_out, fake_out) 
+        d_loss = d_loss_fn(real_out, fake_out) + 10.0 * r1_penalty
 
         optimizer_D.zero_grad()
         d_loss.backward()
