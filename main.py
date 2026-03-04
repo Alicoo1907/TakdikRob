@@ -242,7 +242,7 @@ for epoch in tqdm(range(1, EPOCHS + 1), desc="Epoch Progress"):
         torch.save(net_G.state_dict(), os.path.join(SAVE_PATH, f"netG_epoch{epoch}.pt"))
         torch.save(net_D.state_dict(), os.path.join(SAVE_PATH, f"netD_epoch{epoch}.pt"))
         print(f"Models saved at epoch {epoch}")
-        # Loss grafiğini çiz
+        
         plt.figure(figsize=(10, 5))
         plt.plot(range(1, epoch + 1), g_losses, label="G Loss", color='orange')
         plt.plot(range(1, epoch + 1), d_losses, label="D Loss", color='blue')
