@@ -168,84 +168,6 @@ def compute_motion_fid(real_tensors, fake_tensors, device="cpu", encoder=None, v
     return fid_score
 
 
-# ============================================================
-#  Her hareket (sequence) için ayrı Motion FID hesabı
-# ============================================================
-def compute_motion_fid_per_sequence(h5_path, fake_root, device="cpu", encoder=None):
-    results = []
-    with h5py.File(h5_path, 'r') as f:
-        all_keys = list(f.keys())
-        if not all_keys:
-            return results
-        first_group = f[all_keys[0]]
-        T0 = min(len(first_group.keys()), 60)
-
-    if encoder is None:
-        encoder = ActFormerEncoder7(T=T0).to(device)
-    encoder.eval()
-
-    with h5py.File(h5_path, 'r') as f:
-        all_keys = list(f.keys())
-
-        for group_name in tqdm(all_keys, desc="Processing per-sequence FID"):
-            fake_path = None
-            for file in os.listdir(fake_root):
-                cleaned = file.replace("(", "").replace(")", "").replace(",", "").replace("'", "")
-                if group_name in cleaned:
-                    fake_path = os.path.join(fake_root, file)
-                    break
-            if fake_path is None:
-                continue
-
-            group = f[group_name]
-            frame_keys = sorted(group.keys(), key=lambda x: int(x))
-            T = min(len(frame_keys), 60)
-            real_seq = np.zeros((3, 7, T), dtype=np.float32)
-            for t, frame_num in enumerate(frame_keys[:T]):
-                for j, joint_name in enumerate([
-                    'Center', 'ShoulderLeft', 'ElbowLeft', 'WristLeft',
-                    'ShoulderRight', 'ElbowRight', 'WristRight'
-                ]):
-                    real_seq[0, j, t] = group[frame_num][f'{joint_name}/X'][()]
-                    real_seq[1, j, t] = group[frame_num][f'{joint_name}/Y'][()]
-                    real_seq[2, j, t] = group[frame_num][f'{joint_name}/Z'][()]
-
-            fake_seq = np.load(fake_path)
-            min_len = min(fake_seq.shape[-1], T)
-            real_seq = real_seq[..., :min_len]
-            fake_seq = fake_seq[..., :min_len]
-
-            with torch.no_grad():
-                # Tensörleri oluştur
-                real_seq_t = torch.tensor(real_seq)
-                fake_seq_t = torch.tensor(fake_seq)
-
-                # Eğer eksenler ters geldiyse düzelt (7,3,T) -> (3,7,T)
-                if real_seq_t.shape[0] == 7 and real_seq_t.shape[1] == 3:
-                    real_seq_t = real_seq_t.permute(1, 0, 2)
-                if fake_seq_t.shape[0] == 7 and fake_seq_t.shape[1] == 3:
-                    fake_seq_t = fake_seq_t.permute(1, 0, 2)
-
-                # Cihaz ve batch ekle
-                real_seq_t = real_seq_t.unsqueeze(0).to(device)
-                fake_seq_t = fake_seq_t.unsqueeze(0).to(device)
-
-                # Özellik çıkar
-                feat_real = encoder(real_seq_t).cpu().numpy()
-                feat_fake = encoder(fake_seq_t).cpu().numpy()
-
-
-            mu_r, sigma_r = np.mean(feat_real, axis=0), np.cov(feat_real, rowvar=False)
-            mu_f, sigma_f = np.mean(feat_fake, axis=0), np.cov(feat_fake, rowvar=False)
-            fid = frechet_distance(mu_r, sigma_r, mu_f, sigma_f)
-
-            results.append({
-                "sequence": group_name,
-                "fake_file": os.path.basename(fake_path),
-                "FID": float(fid)
-            })
-
-    return results
 
 
 # ============================================================
@@ -256,7 +178,7 @@ def load_real_and_fake_data(h5_path, fake_root, max_sequences=None):
     
     # Klasör yoksa oluştur ve boş dön (hata vermemesi için)
     if not os.path.exists(fake_root):
-        print(f"⚠️ Klasör bulunamadı, oluşturuluyor: {fake_root}")
+        print(f" Klasör bulunamadı, oluşturuluyor: {fake_root}")
         os.makedirs(fake_root, exist_ok=True)
         return [], []
 
@@ -322,11 +244,11 @@ def load_evaluator(path="Results/fid_encoder.pt"):
         if os.path.exists(path):
             state_dict = torch.load(path)
             model.load_state_dict(state_dict)
-            print(f"✅ Loaded trained FID encoder from {path}")
+            print(f" Loaded trained FID encoder from {path}")
         else:
-            print(f"⚠️ Warning: Trained encoder not found at {path}. Using random initialization!")
+            print(f" Warning: Trained encoder not found at {path}. Using random initialization!")
     except Exception as e:
-         print(f"⚠️ Error loading encoder: {e}. Using random initialization!")
+         print(f" Error loading encoder: {e}. Using random initialization!")
     
     model.eval()
     if torch.cuda.is_available():
@@ -350,17 +272,6 @@ def main():
     if len(real_tensors) > 0:
         fid_score = compute_motion_fid(real_tensors, fake_tensors, device=device, encoder=encoder)
         print(f"\nGlobal Motion FID Score (Transformer feat): {fid_score:.4f}")
-
-    print("\nCalculating Motion FID per sequence (Transformer feat)...")
-    results = compute_motion_fid_per_sequence(h5_path, fake_root, device=device, encoder=encoder)
-    os.makedirs("Results", exist_ok=True)
-    df = pd.DataFrame(results)
-    out_csv = "Results/motion_fid_per_sequence_transformer.csv"
-    df.to_csv(out_csv, index=False)
-    print(f"\nSaved per-sequence FID results: {out_csv}")
-    if len(df) > 0:
-        print(f"Average Motion FID (across {len(df)} sequences): {df['FID'].mean():.4f}")
-
 
 if __name__ == "__main__":
     main()
