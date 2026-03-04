@@ -175,6 +175,7 @@ def center_joint_loss(motion, center_idx=0, w_static=1.0, w_smooth=0.3):
 g_losses = []
 d_losses = []
 # === Training loop ===
+# === Training loop ===
 for epoch in tqdm(range(1, EPOCHS + 1), desc="Epoch Progress"):
     batch_bar = tqdm(train_loader, desc=f"Epoch {epoch}", leave=False)
     for real_seq, labels, _ in batch_bar:
@@ -190,6 +191,16 @@ for epoch in tqdm(range(1, EPOCHS + 1), desc="Epoch Progress"):
         real_seq.requires_grad = True
         real_out = net_D(real_seq, labels)
         
+        # Calculate R1 Gradient Penalty
+        grad_real = torch.autograd.grad(
+            outputs=real_out.sum(), inputs=real_seq,
+            create_graph=True, retain_graph=True, only_inputs=True
+        )[0]
+        r1_penalty = (grad_real.view(grad_real.size(0), -1).norm(2, dim=1) ** 2).mean()
+
+        fake_out = net_D(fake_seq.detach(), labels)
+        d_loss = d_loss_fn(real_out, fake_out) + 10.0 * r1_penalty # R1_gamma = 10.0
+
         optimizer_D.zero_grad()
         d_loss.backward()
         optimizer_D.step()
@@ -197,6 +208,7 @@ for epoch in tqdm(range(1, EPOCHS + 1), desc="Epoch Progress"):
         # === Train Generator ===
         fake_out = net_D(fake_seq, labels)
         g_adv_loss = g_loss_fn(fake_out)
+
 
         g_l1_loss = torch.mean(torch.abs(real_seq - fake_seq))
 
